@@ -2,4 +2,4 @@ const ProfilePage =()=>{
     return (<div> profilePage</div>)
 }
 
-export default LoginPage
+export default ProfilePage
