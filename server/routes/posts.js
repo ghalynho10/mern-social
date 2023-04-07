@@ -8,7 +8,7 @@ const router = express.Router();
 router.get("/", verifyToken, getFeedPosts);
 router.get("/:userId/posts", verifyToken, getUserPosts);
 
-//* UPDATE
+//* UPDATE POST
 router.patch("/:d/like", verifyToken, likePost);
 
 export default router;
